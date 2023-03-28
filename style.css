@@ -116,3 +116,41 @@ section {
   justify-content: center;
   align-items: center;
 }
+#services h2 {
+  font-size: 3rem;
+}
+@media (max-width: 828px) {
+  html {
+    font-size: 52.5%;
+    overflow-x: hidden;
+  }
+
+  section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .btn {
+    width: 20vh;
+    margin-bottom: 2rem;
+  }
+  #search_btn {
+    width: 27vw;
+  }
+  .heading {
+    margin-top: 20vw;
+  }
+}
